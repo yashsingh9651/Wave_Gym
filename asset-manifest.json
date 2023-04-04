@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Wave_Gym/static/css/main.c077d6e4.css",
-    "main.js": "/Wave_Gym/static/js/main.e804037b.js",
+    "main.css": "/Wave_Gym/static/css/main.05a39ead.css",
+    "main.js": "/Wave_Gym/static/js/main.8f2a680d.js",
     "index.html": "/Wave_Gym/index.html",
-    "main.c077d6e4.css.map": "/Wave_Gym/static/css/main.c077d6e4.css.map",
-    "main.e804037b.js.map": "/Wave_Gym/static/js/main.e804037b.js.map"
+    "main.05a39ead.css.map": "/Wave_Gym/static/css/main.05a39ead.css.map",
+    "main.8f2a680d.js.map": "/Wave_Gym/static/js/main.8f2a680d.js.map"
   },
   "entrypoints": [
-    "static/css/main.c077d6e4.css",
-    "static/js/main.e804037b.js"
+    "static/css/main.05a39ead.css",
+    "static/js/main.8f2a680d.js"
   ]
 }
