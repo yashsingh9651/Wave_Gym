@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Wave_Gym/static/css/main.c077d6e4.css",
+    "main.js": "/Wave_Gym/static/js/main.e804037b.js",
+    "index.html": "/Wave_Gym/index.html",
+    "main.c077d6e4.css.map": "/Wave_Gym/static/css/main.c077d6e4.css.map",
+    "main.e804037b.js.map": "/Wave_Gym/static/js/main.e804037b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c077d6e4.css",
+    "static/js/main.e804037b.js"
+  ]
+}
