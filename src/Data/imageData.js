@@ -10,6 +10,14 @@ const Images =[
     {
         id:'2.jpg',
         img:2
+    },
+    {
+        id:'3.jpg',
+        img:3
+    },
+    {
+        id:'4.jpg',
+        img:4
     }
 ]
 export default Images;

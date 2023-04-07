@@ -3,6 +3,7 @@ import { useFormik } from "formik";
 import Schema from './schemas';
 import emailjs from '@emailjs/browser';
 import {IoIosFitness} from 'react-icons/io';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 import Images from './Data/imageData';
 export const Contact = () => {
   const [index, setIndex] = useState(0);
@@ -20,10 +21,10 @@ export const Contact = () => {
       onSubmit: (values, action) => {
         emailjs
           .sendForm(
-            "service_gxm49ge",
-            "template_hr64q6",
+            "service_szu4j10",
+            "template xigm2af",
             Form.current,
-            "pLJS6d0WCzJXu3_og"
+            "VINWCZF-H4S3QFQ_S"
           )
           .then(
             (result) => {
@@ -53,9 +54,9 @@ export const Contact = () => {
       <div className="lg:flex items-center justify-between lg:w-4/5 w-full mx-auto bg-[#ffffff59] p-2 backdrop-blur-sm rounded-md">
       {/* Owner Box */}
         <div>
-          <img src={Images[index].id} className='lg:w-[700px] w-full lg:h-[400px] object-cover rounded-md' alt="owner" />
-          <div className='flex gap-4 pt-4'>
-            {Images.map((item)=><img key={item.id} src={item.id} onClick={()=>{setIndex(item.img)}} className="object-cover rounded lg:w-[80px] w-[50px] h-[50px] lg:h-[80px] cursor-pointer hover:scale-110" alt="" />
+          <LazyLoadImage effect='blur' src={Images[index].id} className='lg:w-[700px] w-full lg:h-[400px] object-cover rounded-md' alt="owner" />
+          <div className='flex gap-4 pt-4 justify-between lg:justify-start'>
+            {Images.map((item)=><LazyLoadImage effect='blur' key={item.id} src={item.id} onClick={()=>{setIndex(item.img)}} className="object-cover rounded lg:w-[80px] w-[50px] h-[50px] lg:h-[80px] cursor-pointer hover:scale-110" alt="" />
             )}
           </div>
         </div>

@@ -10,7 +10,7 @@ function App() {
     <>
     <Navbar/>
     <Bg/>
-    <BrowserRouter>
+    <BrowserRouter basename="/Wave_Gym">
     <Routes>
       <Route exact path="/" element={<Home/>}/>
       <Route exact path="/contact" element={<Contact/>}/>

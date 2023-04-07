@@ -1,6 +1,12 @@
 body{
     background-color: black;
+    overflow-x: hidden !important;
     color: cyan;
+  }
+  @media (min-width:768px){
+    body{
+      overflow-y: hidden !important;
+    }
   }
   .custom{
     cursor: pointer !important;
@@ -34,7 +40,7 @@ body{
       top: 10%;
     }
     100%{
-      top: 95%;
+      top: 87%;
     }
   }
   /*
